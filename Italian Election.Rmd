@@ -10,3 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(devtools)
 ```
+```{r}
+raw <- read_csv("polls_IT-parliament_2018-10-01.csv")
+```
+```{r}
+raw
+```
+
